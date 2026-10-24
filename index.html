@@ -1,47 +1,118 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BETA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="bar">
-        <div class="logo">BETA</div>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="موقع الدكتور محمد عبد الرحمن الوكيل - أستاذ أمراض النبات - كلية الزراعة - جامعة المنصورة - مصر"
+    />
+    <meta name="theme-color" content="#143f2b" />
+    <title>الدكتور محمد عبد الرحمن الوكيل | أستاذ أمراض النبات</title>
+    <link rel="stylesheet" href="modern.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-badge">جامعة المنصورة</span>
+          <h1>الدكتور محمد عبد الرحمن الوكيل</h1>
         </div>
-    </nav>
-    <header class="header">
-        <div class="header-content">
-            <h1>Advanced CSS Layout</h1>
-            <p>Learn CSS Gradients, Positioning and Z-Index</p>
-            <button>Learn More</button>
-        </div>
+
+        <nav class="main-nav" aria-label="التنقل الرئيسي">
+          <a href="index.html">الرئيسية</a>
+          <a href="">السيرة الذاتية</a>
+          <a href="">الوعي البيئي</a>
+          <a href="">الزراعة</a>
+          <a href="">المقررات</a>
+        </nav>
+      </div>
     </header>
 
-    <main class="content">
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">أمراض النبات • الوعي البيئي</p>
+            <h2>بحث، تعليم، ومعرفة عامة في صحة النبات.</h2>
+            <p>
+              يقدم هذا الموقع منصة حديثة للتعرف على أعمال الدكتور محمد عبد الرحمن الوكيل في مجالات
+              أمراض النبات، التوعية الزراعية، والعلوم البيئية، مع إتاحة المقررات والمواد العلمية
+              المرتبطة بجامعة المنصورة ومصر.
+            </p>
 
-        <section class="cards">
+            <div class="cta-group">
+              <a class="button primary" href="">فتح المحتوى</a>
+              <a class="button secondary" href="">عرض السيرة</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="نظرة سريعة">
+            <div class="panel-card">
+              <h3>ملف مختصر</h3>
+              <ul class="info-list">
+                <li>
+                  <strong>المجال:</strong>
+                  أمراض النبات والعلوم الزراعية
+                </li>
+                <li>
+                  <strong>الجهة:</strong>
+                  كلية الزراعة - جامعة المنصورة
+                </li>
+                <li>
+                  <strong>مجالات الاهتمام:</strong>
+                  الأمراض النباتية، الصحة البيئية، والتوعية العلمية
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">المحتوى</p>
+            <h3 class="section-heading">استكشف المحتوى</h3>
+          </div>
+
+          <div class="cards">
             <article class="card">
-                <span class="badge new">NEW</span>
-                <h2>Web Development</h2>
-                <p>Learn how to create modern websites using HTML and CSS.</p>
+              <div class="card-icon">🌿</div>
+              <h3>صحة النبات</h3>
+              <p>
+                مواد تعليمية، أسس أمراض النبات، ومراجع تساعد في فهم المرض النباتي وكيفية التعامل معه.
+              </p>
+              <a href="">المزيد</a>
             </article>
 
             <article class="card">
-                <span class="badge popular">POPULAR</span>
-                <h2>CSS Design</h2>
-                <p>Learn modern CSS layout and positioning techniques.</p>
+              <div class="card-icon">🌍</div>
+              <h3>العلوم البيئية</h3>
+              <p>
+                محتوى عن الوعي البيئي والصحي، والعلوم المتعلقة بالمجتمع والزراعة والغذاء والصحة العامة.
+              </p>
+              <a href="">افتح المجموعة</a>
             </article>
-        </section>
+
+            <article class="card">
+              <div class="card-icon">📘</div>
+              <h3>الملف الأكاديمي</h3>
+              <p>
+                السيرة الذاتية، الأبحاث، والمراجع العلمية باللغة العربية والإنجليزية.
+              </p>
+              <a href="">عرض الملف</a>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <div class="help"><button class="help-btn">?</button></div>
-
-</body>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 الدكتور محمد عبد الرحمن الوكيل</p>
+        <a href="">زيارة صفحة المحتوى</a>
+      </div>
+    </footer>
+  </body>
 </html>
